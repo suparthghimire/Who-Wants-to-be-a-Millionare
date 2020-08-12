@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Who Wants to Be a Millionare</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-btn">
+            <span class="nav-toggle"></span>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <section class="game-title">
+                <h1 class="title">
+                    WHO WANTS TO BE A MILLIONARE
+                </h1>
+            </section>
+        </header>
+        <section class="timer">
+            <div class="timer-container">
+                <p class="timer-time">
+                    15
+                </p>
+                <p class="timer-time-indicator">
+                    sec
+                </p>
+            </div>
+        </section>
+        <section class="question-answer">
+            <div class="qa-container">
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <section class="life-lines">
+            <button id="google" class="btn-life-line">
+                G   
+            </button>
+            <button id="audience" class="btn-life-line">
+                A  
+            </button>
+            <button id="skip" class="btn-life-line">
+                S
+            </button>
+        </section>
+        <section class="points">
+            <section class="point-seperator">
+                <div class="point-difficulty">
+                    <h2>
+                        Hard
+                    </h2>
+                </div>
+                <div class="point-container">
+                    <p class="point" data="14">Rs 1 Cr</p>
+                    <p class="point" data="13">Rs 50,00,000</p>
+                    <p class="point" data="12">Rs 15,00,000</p>
+                    <p class="point" data="11">Rs 6,40,000</p>
+                    <p class="point" data="10">Rs 3,20,000</p>
+                </div>
+            </section>
+            <section class="point-seperator">
+                <div class="point-difficulty">
+                    <h2>
+                        Medium
+                    </h2>
+                </div>
+                <div class="point-container">
+                    <p class="point" data="9">Rs 1,60,000</p>
+                    <p class="point" data="8">Rs 80,000</p>
+                    <p class="point" data="7">Rs 40,000</p>
+                    <p class="point" data="6">Rs 20,000</p>
+                    <p class="point" data="5">Rs 10,000</p>
+                </div>
+            </section>
+            <section class="point-seperator">
+                <div class="point-difficulty">
+                    <h2>
+                        Easy
+                    </h2>
+                </div>
+                <div class="point-container">
+                    <p class="point" data="4">Rs 1600</p>
+                    <p class="point" data="3">Rs 800</p>
+                    <p class="point" data="2">Rs 400</p>
+                    <p class="point" data="1">Rs 200</p>
+                    <p class="point" data="0">Rs 100</p>
+                </div>
+            </section>
+        </section>
+    </aside>
+    <div class="overlay">
+        <div class="overlay-container">
+            <h2 class="overlay-title">
+                Game over!
+            </h2>
+            <div class="overlay-body">
+                Game Over! You Win
+                <br> Rs.
+                <span class="score">1,600,000</span>
+            </div>
+            <button id="reset">Re Start Game</button>
+        </div>
+</body>
+<script src="js/sidebar.js"></script>
+<script src="js/game.js"></script>
+
+</html>
